@@ -1,0 +1,237 @@
+$padding: 20px;
+$maxWidth: 1000px;
+$color-primary: darkcyan;
+$color-danger: red;
+$color-success: green;
+$font-size-title: 1.9rem;
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #000099;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 70px $padding;
+  max-width: $maxWidth;
+}
+
+.app-bar {
+  background-color: $color-primary;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  &__container {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 $padding;
+    max-width: $maxWidth;
+  }
+
+  &__brand {
+    flex: 1;
+    padding-left: 8px;
+  }
+
+  &__action {
+    background-color: transparent;
+    border: 0;
+    color: #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 115px;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.08);
+    }
+  }
+}
+
+.home {
+  &__servicos {
+    height: 37vh;
+
+    &--titulo {
+      font-size: 1.9rem;
+    }
+
+    &--button {
+      height: 130px;
+      width: 130px;
+      background-color: transparent;
+      color: #000099;
+      font-size: 1.2rem;
+      margin-top: 25px;
+
+      i {
+        padding: 20px;
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+.novo-aluno {
+  &__titulo {
+    font-size: $font-size-title;
+  }
+
+  &__input {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    font-size: 1.2rem;
+    margin: 20px 0;
+    padding: 5px;
+  }
+
+  &__container {
+    text-align: right;
+
+    &--button {
+      background-color: transparent;
+      color: #000099;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+  }
+}
+
+.aluno {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 10px 12px;
+  border-radius: 2px;
+  border-top: solid 2px #000000;
+  margin-top: 45px;
+  padding-top: 40px;
+
+  &__input {
+    flex: 1;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    font-size: 1rem;
+  }
+
+  &__button {
+    margin-left: 10px;
+    background-color: transparent;
+    color: #000099;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+}
+
+.nova-turma {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+
+  &__input {
+    flex: 1;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    font-size: 1rem;
+    width: 70%;
+  }
+
+  &__button {
+    margin-left: 10px;
+    background-color: transparent;
+    color: #000099;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+}
+
+.turma {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 10px 12px;
+  border-radius: 2px;
+  border-top: solid 2px #000000;
+  margin-top: 45px;
+  padding-top: 40px;
+
+  &__span {
+    flex: 1;
+
+    &--linha1 {
+      font-size: 0.95rem;
+      font-weight: bold;
+    }
+
+    &--linha2 {
+      font-size: 0.75rem;
+    }
+  }
+
+  &__button {
+    margin-left: 10px;
+    background-color: transparent;
+    color: #000099;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+}
+
+.turmas {
+  &__titulo {
+    font-size: $font-size-title;
+  }
+}
+
+.aluno-turma {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 10px 12px;
+  border-radius: 2px;
+  border-top: solid 2px #000000;
+  margin-top: 45px;
+  padding-top: 40px;
+
+  &__info {
+    flex: 1;
+
+    &--span {
+      font-size: 0.95rem;
+      font-weight: bold;
+    }
+
+    i {
+      font-size: 2rem;
+    }
+  }
+
+  &__button {
+    margin-left: 10px;
+    background-color: transparent;
+    color: #000099;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+}
+
+.montar {
+  &__titulo {
+    font-size: $font-size-title;
+  }
+}
