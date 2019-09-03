@@ -1,0 +1,42 @@
+{
+  "name": "autoescolasenna",
+  "version": "1.0.0",
+  "description": "Projeo de teste de React.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonproenca/react-redux-profissional-autoescola.git"
+  },
+  "keywords": [
+    "react",
+    "html5",
+    "css3",
+    "sass"
+  ],
+  "author": "Nelson Proença",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonproenca/react-redux-profissional-autoescola/issues"
+  },
+  "homepage": "https://github.com/nelsonproenca/react-redux-profissional-autoescola#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "1.18.2",
+    "sass": "^1.22.10"
+  },
+  "dependencies": {
+    "@material/fab": "^3.1.0",
+    "classnames": "^2.2.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "uuid": "^3.3.3"
+  }
+}
